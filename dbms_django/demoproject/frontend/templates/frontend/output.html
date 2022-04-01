@@ -1,0 +1,13 @@
+{% extends 'frontend/first.html' %}
+
+{% block content %}
+       <tbody>
+    {% for key,value in x.items %}
+        <tr {% if forloop.first %}style="padding-top: 3px;" {% endif %}>
+        {% for key,value in value.items %}
+           <td class="text-center">{{ value }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+{% endblock %}

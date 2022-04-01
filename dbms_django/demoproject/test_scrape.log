@@ -1,0 +1,1138 @@
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view frontend.views.output didn't return an HttpResponse object. It returned None instead.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view frontend.views.output didn't return an HttpResponse object. It returned None instead.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+WARNING:django.request:Not Found: /dql_logo.png
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+WARNING:django.request:Not Found: /dql_logo.png
+WARNING:django.request:Not Found: /dql_logo.png
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+WARNING:django.request:Not Found: /dql_logo.png
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view frontend.views.output didn't return an HttpResponse object. It returned None instead.
+WARNING:django.request:Not Found: /dql_logo.png
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view frontend.views.output didn't return an HttpResponse object. It returned None instead.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 14, in output
+    context['auto_data'] = auto2.parse_auto()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 48, in parse_auto
+    driver.get(f'https://www.autotrader.com/cars-for-sale/all-cars?zip=83843&makeCodeList=HONDA&modelCodeList=CIVIC')
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=99.0.4844.51)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x005D9943+2595139]
+	Ordinal0 [0x0056C9F1+2148849]
+	Ordinal0 [0x00464528+1066280]
+	Ordinal0 [0x004569BE+1010110]
+	Ordinal0 [0x004565AF+1009071]
+	Ordinal0 [0x00455BC6+1006534]
+	Ordinal0 [0x00454AD0+1002192]
+	Ordinal0 [0x004550D8+1003736]
+	Ordinal0 [0x00460AAC+1051308]
+	Ordinal0 [0x004563BD+1008573]
+	Ordinal0 [0x00456F7C+1011580]
+	Ordinal0 [0x004565CA+1009098]
+	Ordinal0 [0x00455BC6+1006534]
+	Ordinal0 [0x00454AD0+1002192]
+	Ordinal0 [0x00454FAD+1003437]
+	Ordinal0 [0x00465C4A+1072202]
+	Ordinal0 [0x004BC19D+1425821]
+	Ordinal0 [0x004AB9EC+1358316]
+	Ordinal0 [0x004BBAF2+1424114]
+	Ordinal0 [0x004AB806+1357830]
+	Ordinal0 [0x00486086+1204358]
+	Ordinal0 [0x00486F96+1208214]
+	GetHandleVerifier [0x0077B232+1658114]
+	GetHandleVerifier [0x0083312C+2411516]
+	GetHandleVerifier [0x0066F261+560433]
+	GetHandleVerifier [0x0066E366+556598]
+	Ordinal0 [0x0057286B+2173035]
+	Ordinal0 [0x005775F8+2192888]
+	Ordinal0 [0x005776E5+2193125]
+	Ordinal0 [0x005811FC+2232828]
+	BaseThreadInitThunk [0x7538FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77517A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77517A6E+238]
+
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 19, in output
+    context['auto_data'] = auto2.parse_auto(search_keyword1,search_keyword2)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 87, in parse_auto
+    final_element = driver.findElements(By.xpath('//*[@id="mountNode"]/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[3]'))
+AttributeError: 'WebDriver' object has no attribute 'findElements'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 23, in output
+    context['auto_data'] = [sub[i] for sub in a]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 23, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in a]
+TypeError: string indices must be integers
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 23, in output
+    context['auto_data'] = [sub[i] for sub in x]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 23, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in x]
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in output
+    context['auto_data'] = [sub[i] for sub in x]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in x]
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in output
+    context['auto_data'] = [sub[i] for sub in x]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in x]
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in output
+    context['auto_data'] = [sub[i] for sub in x]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in x]
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in output
+    context['auto_data'] = [sub[i] for sub in x]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in x]
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in output
+    context['auto_data'] = [sub[i] for sub in x]
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 24, in <listcomp>
+    context['auto_data'] = [sub[i] for sub in x]
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 26, in output
+    context['auto_data'] = {i: res[y]}
+TypeError: list indices must be integers or slices, not str
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 26, in output
+    for y in len(res):
+TypeError: 'int' object is not iterable
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 26, in output
+    for y in res.index():
+TypeError: index() takes at least 1 argument (0 given)
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 26, in output
+    for y in res.index:
+TypeError: 'builtin_function_or_method' object is not iterable
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 30, in output
+    final_list.append(final_dict)
+UnboundLocalError: local variable 'final_dict' referenced before assignment
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 28, in output
+    if x.has_key(i):
+AttributeError: 'list' object has no attribute 'has_key'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 27, in output
+    print('11',i,x[i])
+TypeError: list indices must be integers or slices, not str
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 30, in output
+    final_dict = {i:res(j)}
+TypeError: 'list' object is not callable
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 31, in output
+    final_dict = {i:res[j]}
+KeyError: 0
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 32, in output
+    final_dict = {InputList[j]:res[j]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 32, in output
+    final_dict = {InputList[j]:res[j]}
+KeyError: 0
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 28, in output
+    final_dict = {i: res[i]}
+NameError: name 'res' is not defined
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 30, in output
+    final_list[0].update(final_list[1])
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 34, in output
+    final_list[0].update(final_list[1])
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 35, in output
+    final_list.append(final_dict)
+NameError: name 'final_dict' is not defined
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 30, in output
+    final_dict = {i: x[index][i],next(i):x[index][next(i)]}
+TypeError: 'str' object is not an iterator
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 31, in output
+    final_dict = {i: x[index][i],next(next_element):x[index][next(next_element)]}
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 31, in output
+    final_dict = {i: x[index][i],next(next_element.strip()):x[index][next(next_element.strip())]}
+AttributeError: 'list_iterator' object has no attribute 'strip'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 31, in output
+    final_dict = {i: x[index][i],next(i):x[index][next(i)]}
+TypeError: 'str' object is not an iterator
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 31, in output
+    final_dict = {i: x[index][i],InputList[j+1]:x[index][InputList[j+1]]}
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 32, in output
+    final_dict = {i: x[index][i],InputList[j+1]:x[index][InputList[j+1]]}
+KeyError: ' year'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 32, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 35, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 36, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 36, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 36, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 37, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 36, in output
+    final_dict = {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 37, in output
+    final_dict.loads(final_dict_1)
+AttributeError: 'dict' object has no attribute 'loads'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 37, in output
+    final_dict.loads(final_dict_1)
+AttributeError: 'str' object has no attribute 'loads'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 37, in output
+    final_dict.dumps(final_dict_1)
+AttributeError: 'str' object has no attribute 'dumps'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 38, in output
+    final_dict.dumps(final_dict_1)
+AttributeError: 'str' object has no attribute 'dumps'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 39, in output
+    final_dict.dumps(final_dict_1)
+AttributeError: 'str' object has no attribute 'dumps'
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 39, in output
+    final_dict.dumps(final_dict_1)
+AttributeError: 'str' object has no attribute 'dumps'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 39, in output
+    final_dict.dumps(final_dict_1)
+AttributeError: 'str' object has no attribute 'dumps'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 37, in output
+    final_dict= {i: x[index][i],InputList[j+1].lstrip():x[index][InputList[j+1].lstrip()]}
+IndexError: list index out of range
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 29, in output
+    x = auto2.parse_auto(search_keyword1, search_keyword2)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 48, in parse_auto
+    driver.get(f"https://www.autotrader.com/cars-for-sale/all-cars?zip={search_keyword3}&makeCodeList={search_keyword1}&modelCodeList={search_keyword2}")
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 437, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=99.0.4844.82)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00F39943+2595139]
+	Ordinal0 [0x00ECC9F1+2148849]
+	Ordinal0 [0x00DC4528+1066280]
+	Ordinal0 [0x00DC0DB4+1052084]
+	Ordinal0 [0x00DB63BD+1008573]
+	Ordinal0 [0x00DB6F7C+1011580]
+	Ordinal0 [0x00DB65CA+1009098]
+	Ordinal0 [0x00DB5BC6+1006534]
+	Ordinal0 [0x00DB4AD0+1002192]
+	Ordinal0 [0x00DB4FAD+1003437]
+	Ordinal0 [0x00DC5C4A+1072202]
+	Ordinal0 [0x00E1C19D+1425821]
+	Ordinal0 [0x00E0B9EC+1358316]
+	Ordinal0 [0x00E1BAF2+1424114]
+	Ordinal0 [0x00E0B806+1357830]
+	Ordinal0 [0x00DE6086+1204358]
+	Ordinal0 [0x00DE6F96+1208214]
+	GetHandleVerifier [0x010DB232+1658114]
+	GetHandleVerifier [0x0119312C+2411516]
+	GetHandleVerifier [0x00FCF261+560433]
+	GetHandleVerifier [0x00FCE366+556598]
+	Ordinal0 [0x00ED286B+2173035]
+	Ordinal0 [0x00ED75F8+2192888]
+	Ordinal0 [0x00ED76E5+2193125]
+	Ordinal0 [0x00EE11FC+2232828]
+	BaseThreadInitThunk [0x756EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77697A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77697A4E+238]
+
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 28, in output
+    x = auto2.parse_auto(Inputdictionary)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 59, in parse_auto
+    driver.get(f"https://www.autotrader.com/cars-for-sale/all-cars?zip={search_keyword3}&makeCodeList={search_keyword1}&modelCodeList={search_keyword2}")
+NameError: name 'search_keyword3' is not defined
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 31, in output
+    x = auto2.parse_auto(Inputdictionary,bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 111, in parse_auto
+    final_element1 = driver.find_element_by_xpath('//*[@id="mountNode"]/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[3]')
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 521, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1250, in find_element
+    'value': value})['value']
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mountNode"]/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[3]"}
+  (Session info: chrome=99.0.4844.82)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004C9943+2595139]
+	Ordinal0 [0x0045C9F1+2148849]
+	Ordinal0 [0x00354528+1066280]
+	Ordinal0 [0x00380FD4+1249236]
+	Ordinal0 [0x003811CB+1249739]
+	Ordinal0 [0x003AD812+1431570]
+	Ordinal0 [0x0039BA34+1358388]
+	Ordinal0 [0x003ABAF2+1424114]
+	Ordinal0 [0x0039B806+1357830]
+	Ordinal0 [0x00376086+1204358]
+	Ordinal0 [0x00376F96+1208214]
+	GetHandleVerifier [0x0066B232+1658114]
+	GetHandleVerifier [0x0072312C+2411516]
+	GetHandleVerifier [0x0055F261+560433]
+	GetHandleVerifier [0x0055E366+556598]
+	Ordinal0 [0x0046286B+2173035]
+	Ordinal0 [0x004675F8+2192888]
+	Ordinal0 [0x004676E5+2193125]
+	Ordinal0 [0x004711FC+2232828]
+	BaseThreadInitThunk [0x756EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77697A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77697A4E+238]
+
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 35, in output
+    x = auto2.parse_auto(Inputdictionary,bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 79, in parse_auto
+    driver.get(f"https://www.autotrader.com/cars-for-sale/all-cars/cars-over-{NewDict['price']}/moscow-id-{NewDict['zip']}?dma=&searchRadius=50&priceRange=&location=&startYear={NewDict['startYear']}&marketExtension=include&isNewSearch=true&showAccelerateBanner=false&sortBy=relevance&numRecords=25")
+KeyError: 'price'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 35, in output
+    x = auto2.parse_auto(Inputdictionary,bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 79, in parse_auto
+    driver.get(f"https://www.autotrader.com/cars-for-sale/all-cars/cars-over-{NewDict['price']}/moscow-id-{NewDict['zip']}?dma=&searchRadius=50&priceRange=&location=&startYear={NewDict['startYear']}&marketExtension=include&isNewSearch=true&showAccelerateBanner=false&sortBy=relevance&numRecords=25")
+KeyError: 'price'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 35, in output
+    x = auto2.parse_auto(Inputdictionary,bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 85, in parse_auto
+    driver.get(f"https://www.autotrader.com/cars-for-sale/all-cars/cars-over-{NewDict['price1']}/moscow-id-{NewDict['zip']}?dma=&searchRadius=50&priceRange=&location=&startYear={NewDict['startYear']}&marketExtension=include&isNewSearch=true&showAccelerateBanner=false&sortBy=relevance&numRecords=25")
+KeyError: 'startYear'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 35, in output
+    x = auto2.parse_auto(Inputdictionary,bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py", line 144, in parse_auto
+    print(c.text)
+AttributeError: 'list' object has no attribute 'text'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\auto2.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 85, in output
+    x = cars.parse_cars(Inputdictionary, bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\cars.py", line 80, in parse_cars
+    driver.get(f"https://www.cars.com/shopping/results/?stock_type=used&makes%5B%5D=honda&models%5B%5D={search_keyword1}-{search_keyword2}&list_price_max=&maximum_distance=50&zip={search_keyword4}")
+NameError: name 'search_keyword1' is not defined
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\cars.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\cars.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\cars.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 88, in output
+    return render(request,'frontend/output.html',context)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 88, in output
+    return render(request,'frontend/output.html',context)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 11: 'for'. Looking for one of: empty, endfor.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 88, in output
+    return render(request,'frontend/output.html',context)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\defaulttags.py", line 816, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'values[0]'
+INFO:django.utils.autoreload:C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 88, in output
+    return render(request,'frontend/output.html',context)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 88, in output
+    return render(request,'frontend/output.html',context)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 11: 'for'. Looking for one of: empty, endfor.
+ERROR:django.request:Internal Server Error: /output
+Traceback (most recent call last):
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\views.py", line 85, in output
+    x = cars.parse_cars(Inputdictionary, bool_check)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\demoproject\frontend\cars.py", line 83, in parse_cars
+    final_element1 = driver.find_elements_by_class_name('vehicle-details')
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 784, in find_elements_by_class_name
+    return self.find_elements(by=By.CLASS_NAME, value=name)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1285, in find_elements
+    'value': value})['value'] or []
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Ankur Shrivastava\PycharmProjects\dbms_django\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00CF9943+2595139]
+	Ordinal0 [0x00C8C9F1+2148849]
+	Ordinal0 [0x00B843F0+1065968]
+	Ordinal0 [0x00B787C2+1017794]
+	Ordinal0 [0x00B78FF8+1019896]
+	Ordinal0 [0x00B7A892+1026194]
+	Ordinal0 [0x00B74219+999961]
+	Ordinal0 [0x00B85860+1071200]
+	Ordinal0 [0x00BDB2D2+1422034]
+	Ordinal0 [0x00BCB806+1357830]
+	Ordinal0 [0x00BA6086+1204358]
+	Ordinal0 [0x00BA6F96+1208214]
+	GetHandleVerifier [0x00E9B232+1658114]
+	GetHandleVerifier [0x00F5312C+2411516]
+	GetHandleVerifier [0x00D8F261+560433]
+	GetHandleVerifier [0x00D8E366+556598]
+	Ordinal0 [0x00C9286B+2173035]
+	Ordinal0 [0x00C975F8+2192888]
+	Ordinal0 [0x00C976E5+2193125]
+	Ordinal0 [0x00CA11FC+2232828]
+	BaseThreadInitThunk [0x7612FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77C67A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C67A4E+238]
+
